@@ -1,0 +1,23 @@
+= Host-specific information
+$> hostname; uname -msr
+ox-k3.msk.21-school.ru
+Darwin 18.7.0 x86_64
+$> date
+Sat May 15 00:32:17 MSK 2021
+$> gcc --version
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= libft.h
+$> norminette libft.h | grep -E '(Error|Warning)'
+
+= Compiling libft
+$> make re
+rm -f ft_memset.o ft_isdigit.o ft_isalnum.o ft_isalpha.o

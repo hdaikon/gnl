@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hdaikon/Desktop/GNL/get_next_line.c
+get_next_line.h
+/Users/hdaikon/Desktop/GNL/get_next_line.h
+fcntl.h
+-
+stdio.h
+-
+
+/Users/hdaikon/Desktop/GNL/get_next_line.h
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+fcntl.h
+-
+
+/Users/hdaikon/Desktop/GNL/get_next_line_utils.c
+get_next_line.h
+/Users/hdaikon/Desktop/GNL/get_next_line.h
+
+/Users/hdaikon/Desktop/GNL/main.c
+get_next_line.h
+/Users/hdaikon/Desktop/GNL/get_next_line.h
+
